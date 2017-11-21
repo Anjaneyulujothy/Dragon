@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dragon.dragon.dragon.MainActivity">
+
+    <TextView
+
+        android:id="@+id/scorelable"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Score :300"
+        android:textSize="18sp"
+        android:paddingLeft="10dp"
+   android:gravity="center_vertical"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/dragon"
+     android:layout_width="50dp"
+     android:layout_height="50dp"
+   android:layout_gravity="center_vertical"
+     android:src="@drawable/dragon"/>
+
+        <ImageView
+            android:id="@+id/red"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+
+            android:src="@drawable/red"/>
+        <ImageView
+
+            android:id="@+id/blue"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+
+            android:src="@drawable/blue"/>
+        <ImageView
+            android:id="@+id/bug"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+
+            android:src="@drawable/bug"/>
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            android:gravity="center_horizontal"
+            android:text="TAP TO START"
+
+            android:textSize="30sp" />
+
+    </FrameLayout>
+
+</LinearLayout>
